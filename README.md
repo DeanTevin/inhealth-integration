@@ -40,10 +40,10 @@ IHEALTH_PROD_URL = #inhealth prod url (default: https://development.inhealth.co.
     {
         // $data is the payload that you want to send to Mandiri Inhealth
         $data =[
-            "tglpelayanan" => "2023-11-23"
-            "nokainhealth" => "10015xxxxxxxx"
-            "jenispelayanan" => "400904xxxxxxxx"
-            "poli" => "24J"
+            "tglpelayanan" => "2023-11-23",
+            "nokainhealth" => "10015xxxxxxxx",
+            "jenispelayanan" => "400904xxxxxxxx",
+            "poli" => "24J",
         ]
 
         // Call function
@@ -58,30 +58,30 @@ IHEALTH_PROD_URL = #inhealth prod url (default: https://development.inhealth.co.
 The result will be array from decoded json response (data represented below are Dummy Response)
 ```php
 [
-  "ERRORCODE" => "00"
-  "ERRORDESC" => "Sukses"
-  "NOKAPST" => "1001541995379"
-  "NMPST" => "LINTANG SETIABUDI"
-  "TGLLAHIR" => "1994-09-15T00:00:00"
-  "KODEPRODUK" => "G"
-  "NAMAPRODUK" => "GOLD"
-  "KODEKELASRAWAT" => "1"
-  "NAMAKELASRAWAT" => "KELAS I"
-  "KODEBADANUSAHA" => "02230011"
-  "NAMABADANUSAHA" => "PT GARUDA INDONESIA (PERSERO) Tbk"
-  "KODEPROVIDER" => "0901K009"
-  "NAMAPROVIDER" => "KLINIK GARUDA SENTRA MEDIKA"
-  "NOKAPSTBPJS" => "0000165714636"
-  "NMPSTBPJS" => "LINTANG SETIABUDI"
-  "KELASBPJS" => "KELAS 1"
-  "KODEPROVIDERBPJS" => "11030802"
-  "NAMAPROVIDERBPJS" => "KALIWUNGU SELATAN"
-  "FLAGPSTBPJS" => "1"
-  "PRODUKCOB" => "BADAN USAHA NON COB"
-  "PRIORITAS" => ""
-  "TGLMULAIPST" => "2021-07-01T00:00:00"
-  "TGLAKHIRPST" => "2023-12-31T00:00:00"
-  "JENISKELAMIN" => "P"
+  "ERRORCODE" => "00",
+  "ERRORDESC" => "Sukses",
+  "NOKAPST" => "1001541995379",
+  "NMPST" => "LINTANG SETIABUDI",
+  "TGLLAHIR" => "1994-09-15T00:00:00",
+  "KODEPRODUK" => "G",
+  "NAMAPRODUK" => "GOLD",
+  "KODEKELASRAWAT" => "1",
+  "NAMAKELASRAWAT" => "KELAS I",
+  "KODEBADANUSAHA" => "02230011",
+  "NAMABADANUSAHA" => "PT GARUDA INDONESIA (PERSERO) Tbk",
+  "KODEPROVIDER" => "0901K009",
+  "NAMAPROVIDER" => "KLINIK GARUDA SENTRA MEDIKA",
+  "NOKAPSTBPJS" => "0000165714636",
+  "NMPSTBPJS" => "LINTANG SETIABUDI",
+  "KELASBPJS" => "KELAS 1",
+  "KODEPROVIDERBPJS" => "11030802",
+  "NAMAPROVIDERBPJS" => "KALIWUNGU SELATAN",
+  "FLAGPSTBPJS" => "1",
+  "PRODUKCOB" => "BADAN USAHA NON COB",
+  "PRIORITAS" => "",
+  "TGLMULAIPST" => "2021-07-01T00:00:00",
+  "TGLAKHIRPST" => "2023-12-31T00:00:00",
+  "JENISKELAMIN" => "P",
 ]
 ```
 
@@ -89,29 +89,29 @@ The result will be array from decoded json response (data represented below are 
 The result will be array from decoded json response (data represented below are Dummy Response)
 ```php
 [
-  "ERRORCODE" => "07"
-  "ERRORDESC" => "Peserta Tidak Terdaftar"
-  "NOKAPST" => null
-  "NMPST" => null
-  "TGLLAHIR" => "0001-01-01T00:00:00"
-  "KODEPRODUK" => null
-  "NAMAPRODUK" => null
-  "KODEKELASRAWAT" => null
-  "NAMAKELASRAWAT" => null
-  "KODEBADANUSAHA" => null
-  "NAMABADANUSAHA" => null
-  "KODEPROVIDER" => null
-  "NAMAPROVIDER" => null
-  "NOKAPSTBPJS" => null
-  "NMPSTBPJS" => null
-  "KELASBPJS" => null
-  "KODEPROVIDERBPJS" => null
-  "NAMAPROVIDERBPJS" => null
-  "FLAGPSTBPJS" => null
-  "PRODUKCOB" => null
-  "PRIORITAS" => null
-  "TGLMULAIPST" => "0001-01-01T00:00:00"
-  "TGLAKHIRPST" => "0001-01-01T00:00:00"
-  "JENISKELAMIN" => null
+  "ERRORCODE" => "07",
+  "ERRORDESC" => "Peserta Tidak Terdaftar",
+  "NOKAPST" => null,
+  "NMPST" => null,
+  "TGLLAHIR" => "0001-01-01T00:00:00",
+  "KODEPRODUK" => null,
+  "NAMAPRODUK" => null,
+  "KODEKELASRAWAT" => null,
+  "NAMAKELASRAWAT" => null,
+  "KODEBADANUSAHA" => null,
+  "NAMABADANUSAHA" => null,
+  "KODEPROVIDER" => null,
+  "NAMAPROVIDER" => null,
+  "NOKAPSTBPJS" => null,
+  "NMPSTBPJS" => null,
+  "KELASBPJS" => null,
+  "KODEPROVIDERBPJS" => null,
+  "NAMAPROVIDERBPJS" => null,
+  "FLAGPSTBPJS" => null,
+  "PRODUKCOB" => null,
+  "PRIORITAS" => null,
+  "TGLMULAIPST" => "0001-01-01T00:00:00",
+  "TGLAKHIRPST" => "0001-01-01T00:00:00",
+  "JENISKELAMIN" => null,
 ]
 ```
