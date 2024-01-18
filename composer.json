@@ -20,7 +20,8 @@
         }
     },
     "require": {
-        "illuminate/http": "^5.5"
+        "illuminate/http": "^5.5",
+        "deantev/inhealth-integration": "dev-main"
     },
     "extra": {
         "laravel": {
