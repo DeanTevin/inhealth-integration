@@ -8,6 +8,12 @@
             "email": "deantevinn.work@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fhsinchy/inspire"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Deantev\\Inhealth\\Integration\\": "src"
