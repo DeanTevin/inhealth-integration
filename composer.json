@@ -1,0 +1,26 @@
+{
+    "name": "deantev/inhealth-integration",
+    "description": "Mandiri Inhealth integration api version: v2",
+    "keywords": ["mandiri", "asuransi", "insurance", "inhealth"],
+    "authors": [
+        {
+            "name": "Tevin Dean Ramadhan",
+            "email": "deantevinn.work@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Deantev\\Inhealth\\Integration\\": "src"
+        }
+    },
+    "require": {
+        "illuminate/http": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deantev\\Inhealth\\Integration\\InhealthServiceProvider"
+            ]
+        }
+    }
+}
