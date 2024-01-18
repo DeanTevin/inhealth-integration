@@ -11,7 +11,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/fhsinchy/inspire"
+            "url": "https://github.com/deantevin/inhealth-integration"
         }
     ],
     "autoload": {
