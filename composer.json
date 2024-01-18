@@ -20,8 +20,8 @@
         }
     },
     "require": {
-        "illuminate/http": "^5.5"
-    },
+        "laravel/framework": "^5.5"
+    },    
     "extra": {
         "laravel": {
             "providers": [
