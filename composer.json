@@ -28,5 +28,7 @@
                 "Deantev\\Inhealth\\Integration\\InhealthServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
