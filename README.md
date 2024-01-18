@@ -12,7 +12,7 @@ composer require deantev/inhealth-integration
 ## Adding providers
 Add Service Provider to `config/app.php` in `providers` section
 ```php
-Rap2hpoutre\LaravelLogViewer\InhealthServiceProvider::class,
+Deantev\Inhealth\Integration\InhealthServiceProvider::class,
 ```
 
 ## Publishing config file
