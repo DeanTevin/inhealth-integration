@@ -18,6 +18,10 @@
         "psr-4": {
             "Deantev\\Inhealth\\Integration\\": "src"
         }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.5.*|^6.0|^7.0|^8.0|^9.0|^10.0"
     },    
     "extra": {
         "laravel": {
