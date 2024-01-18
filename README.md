@@ -6,7 +6,7 @@ Mandiri Inhealth Integration for Laravel 10 (not yet tested on Laravel 6, 7, 8, 
 ## Install (Laravel)
 Install via composer
 ```bash
-composer require deantev/inhealth-integration
+composer require deantev/inhealth-integration:dev-main
 ```
 
 ## Adding providers
