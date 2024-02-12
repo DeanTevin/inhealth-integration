@@ -316,4 +316,11 @@ class Inhealth
         return json_decode($result, true);
     }
 
+    public static function postInfoBenefit($data_hash=[]) {
+        $result = Inhealth::post(
+            Inhealth::getUrl().'api/InfoBenefit',
+            $data_hash
+        );
+        return json_decode($result, true);
+    }
 }
